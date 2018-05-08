@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="161ceb79-39ac-4b87-a549-7eb0d9995815" name="Default" comment="" />
+    <list default="true" id="6b976c43-4722-47af-9828-fa5de4ff3893" name="Default" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/pangram_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/pangram_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pangram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PangramChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PangramCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rna-transcription/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rna-transcription/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,33 +42,34 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RnaTranscription.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RnaTranscription.java">
+      <file leaf-file-name="PangramChecker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PangramChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="90">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RnaTranscriptionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RnaTranscriptionTest.java">
+      <file leaf-file-name="PangramCheckerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PangramCheckerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -67,14 +87,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="rna-transcription" />
+              <option name="name" value="pangram" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="rna-transcription" />
+                <option name="name" value="pangram" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -88,7 +108,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'rna-transcription'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'pangram'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -102,7 +122,7 @@
                 <option name="name" value="cleanEclipseClasspath" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'rna-transcription'." />
+                <option name="description" value="Displays the sub-projects of root project 'pangram'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -117,12 +137,12 @@
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'rna-transcription'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'pangram'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'rna-transcription'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'pangram'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -156,7 +176,7 @@
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'rna-transcription'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'pangram'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -166,7 +186,7 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'rna-transcription'." />
+                <option name="description" value="Displays the tasks runnable from root project 'pangram'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -190,7 +210,7 @@
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'rna-transcription'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'pangram'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -215,7 +235,7 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'rna-transcription'." />
+                <option name="description" value="Displays all dependencies declared in root project 'pangram'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -255,7 +275,7 @@
                 <option name="name" value="eclipseProject" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'rna-transcription'." />
+                <option name="description" value="Displays the properties of root project 'pangram'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -266,7 +286,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3051094500000" />
+        <entry key="$PROJECT_DIR$" value="3051331185000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3260766417" />
       </map>
@@ -287,7 +307,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="rna-transcription" />
+              <option name="name" value="pangram" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-0.13.1.jar" />
@@ -377,8 +397,9 @@
       <map>
         <entry key="$PROJECT_DIR$/../armstrong-numbers" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../hello-world" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../reverse-string" value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../reverse-string" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../rna-transcription" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../two-fer" value="PREVIEW" />
       </map>
     </option>
@@ -386,8 +407,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/RnaTranscriptionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RnaTranscription.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PangramCheckerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PangramChecker.java" />
       </list>
     </option>
   </component>
@@ -397,6 +418,7 @@
     <option name="width" value="1380" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -406,36 +428,36 @@
         <subPane>
           <expand>
             <path>
-              <item name="rna-transcription" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rna-transcription" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pangram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pangram" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="rna-transcription" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rna-transcription" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pangram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pangram" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rna-transcription" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rna-transcription" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pangram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pangram" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="rna-transcription" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rna-transcription" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pangram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pangram" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rna-transcription" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rna-transcription" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pangram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pangram" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="rna-transcription" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rna-transcription" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pangram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pangram" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -445,12 +467,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pangram" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -464,18 +487,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PangramCheckerTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="RnaTranscriptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rna-transcription_test" />
+    <configuration name="PangramCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pangram_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RnaTranscriptionTest" />
+      <option name="MAIN_CLASS_NAME" value="PangramCheckerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PangramCheckerTest.pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pangram_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PangramCheckerTest" />
+      <option name="METHOD_NAME" value="pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -523,9 +563,14 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.PangramCheckerTest" />
+      <item itemvalue="JUnit.PangramCheckerTest.pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RnaTranscriptionTest" />
+        <item itemvalue="JUnit.PangramCheckerTest" />
+        <item itemvalue="JUnit.PangramCheckerTest.pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram" />
       </list>
     </recent_temporary>
   </component>
@@ -534,110 +579,138 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="161ceb79-39ac-4b87-a549-7eb0d9995815" name="Default" comment="" />
-      <created>1525547290161</created>
+      <changelist id="6b976c43-4722-47af-9828-fa5de4ff3893" name="Default" comment="" />
+      <created>1525665745613</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1525547290161</updated>
+      <updated>1525665745613</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RnaTranscriptionTest - 2018.05.06 at 23h 40m 09s.xml">
-      <configuration name="RnaTranscriptionTest" configurationId="JUnit" />
+    <history-entry file="PangramCheckerTest_pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram - 2018.05.07 at 23h 09m 50s.xml">
+      <configuration name="PangramCheckerTest.pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RnaTranscriptionTest - 2018.05.06 at 23h 40m 24s.xml">
-      <configuration name="RnaTranscriptionTest" configurationId="JUnit" />
+    <history-entry file="PangramCheckerTest_pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram - 2018.05.07 at 23h 12m 18s.xml">
+      <configuration name="PangramCheckerTest.pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RnaTranscriptionTest - 2018.05.06 at 23h 40m 55s.xml">
-      <configuration name="RnaTranscriptionTest" configurationId="JUnit" />
+    <history-entry file="PangramCheckerTest - 2018.05.07 at 23h 12m 34s.xml">
+      <configuration name="PangramCheckerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RnaTranscriptionTest - 2018.05.06 at 23h 41m 01s.xml">
-      <configuration name="RnaTranscriptionTest" configurationId="JUnit" />
+    <history-entry file="PangramCheckerTest - 2018.05.07 at 23h 12m 54s.xml">
+      <configuration name="PangramCheckerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RnaTranscriptionTest - 2018.05.06 at 23h 41m 12s.xml">
-      <configuration name="RnaTranscriptionTest" configurationId="JUnit" />
+    <history-entry file="PangramCheckerTest - 2018.05.07 at 23h 13m 03s.xml">
+      <configuration name="PangramCheckerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RnaTranscriptionTest - 2018.05.06 at 23h 41m 18s.xml">
-      <configuration name="RnaTranscriptionTest" configurationId="JUnit" />
+    <history-entry file="PangramCheckerTest - 2018.05.07 at 23h 13m 10s.xml">
+      <configuration name="PangramCheckerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RnaTranscriptionTest - 2018.05.06 at 23h 45m 56s.xml">
-      <configuration name="RnaTranscriptionTest" configurationId="JUnit" />
+    <history-entry file="PangramCheckerTest - 2018.05.07 at 23h 13m 18s.xml">
+      <configuration name="PangramCheckerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RnaTranscriptionTest - 2018.05.06 at 23h 46m 23s.xml">
-      <configuration name="RnaTranscriptionTest" configurationId="JUnit" />
+    <history-entry file="PangramCheckerTest - 2018.05.07 at 23h 13m 33s.xml">
+      <configuration name="PangramCheckerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PangramCheckerTest - 2018.05.07 at 23h 14m 23s.xml">
+      <configuration name="PangramCheckerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PangramCheckerTest - 2018.05.07 at 23h 14m 42s.xml">
+      <configuration name="PangramCheckerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32946146" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32910052" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22846442" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24986623" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="SonarLint" order="7" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32946146" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="3" weight="0.32946146" />
+      <window_info anchor="bottom" id="Find" order="6" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          </first_editor>
+          <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PangramCheckerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PangramChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RnaTranscriptionTest.java">
+    <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="-73">
+          <caret line="141" column="8" lean-forward="true" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RnaTranscription.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PangramCheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="150">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PangramChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>
