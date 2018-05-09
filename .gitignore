@@ -23,3 +23,11 @@ hs_err_pid*
 
 # Intellj Idea
 .idea/**
+*/.idea/**
+*/.gradle/**
+*/out/**
+*.iml
+build.gradle
+gradlew
+gradlew.bat
+*/.idea/workspace.xml
